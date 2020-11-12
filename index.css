@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner{
+    position: relative;
+    background: url("./Assets/picture/Home-Banner.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+
+
+}
+.banner h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 10rem;
+    position: absolute;
+    left: 50% ;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255,255);
+    text-align: center;
+    margin: auto;
+    text-shadow: 2px 2px 2px 2px red;
+
+
+}
+.banner .nav{
+    background-color: rgb(255, 255, 255, 0.6);
+    position: relative;
+    padding: 1.2em;
+    box-shadow: (0.5em, 0.5em, 0.5em, 0.5em) black;
+}
+.banner nav ul{
+    text-align: center;
+    float: none;
+    position: absolute;
+}
+.banner .nav ul li {
+    display: inline-block;
+    float: none;
+
+}
+.banner .nav ul li a {
+    text-decoration: none;
+    color: #5e5e5e;
+    text-transform: uppercase;
+    font-size: 1.3em;
+    font-family: 'Montserrat', sans-serif;
+    padding: 1.2rem;
+    
+
+}
